@@ -57,3 +57,7 @@ console.log("PART4 ENDED:");
 
 //PART 5
 console.log("PART 5 STARTED:");
+student.addCourse = function(newCourse){
+    this.courses.push(newCourse);
+    console.log(`New course "${newCourse}" added`.);
+};
