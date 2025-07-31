@@ -68,3 +68,7 @@ student.getCourseCount = function() {
 
 student.addCourse("Web Programming");
 console.log("Total number of teh courses: ", student.getCourseCount());
+console.log("part 5 ended:");
+
+//bonnus part
+console.log("Bonus part started:");
