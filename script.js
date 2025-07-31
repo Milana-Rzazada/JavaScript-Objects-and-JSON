@@ -77,3 +77,4 @@ const marks = [57,89,96,63,87,79,52,49,99,100];
 const averagemarks = marks.reduce((acc, curr) => acc + curr, 0/marks.length);
 
 console.log("Average of marks: ", averagemarks.toFixed(3));
+console.log("Bonnus part ended:");
