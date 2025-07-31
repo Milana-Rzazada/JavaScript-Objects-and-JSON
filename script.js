@@ -72,3 +72,8 @@ console.log("part 5 ended:");
 
 //bonnus part
 console.log("Bonus part started:");
+const marks = [57,89,96,63,87,79,52,49,99,100];
+
+const averagemarks = marks.reduce((acc, curr) => acc + curr, 0/marks.length);
+
+console.log("Average of marks: ", averagemarks.toFixed(3));
