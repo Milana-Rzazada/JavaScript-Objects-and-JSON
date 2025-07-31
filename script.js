@@ -42,3 +42,8 @@ const scores = [87, 75, 56, 98, 64, 91];
 const [score1, score2] = scores;
 console.log("The first score: ", score1);
 console.log("The second score: ", score2);
+console.log("part 3 ended:");
+
+
+//part 4
+console.log("Part 4 started:");
