@@ -59,10 +59,12 @@ console.log("PART4 ENDED:");
 console.log("PART 5 STARTED:");
 student.addCourse = function(newCourse){
     this.courses.push(newCourse);
-    console.log(`New course "${newCourse}" added`.);
+    console.log(`New course "${newCourse}" added`);
 };
 
 student.getCourseCount = function() {
     return this.courses.length;
 };
 
+student.addCourse("Web Programming");
+console.log("Total number of teh courses: ", student.getCourseCount());
