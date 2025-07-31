@@ -53,3 +53,7 @@ console.log("Cloned Student with Graduation Year: ", StudentClone);
 const newCourses = ["Fundamentals of Numeric", "Front-end Developr", "Art science"];
 const upCourses = [...student.courses, ...newCourses];
 console.log("Merged Courses:", upCourses);
+console.log("PART4 ENDED:");
+
+//PART 5
+console.log("PART 5 STARTED:");
