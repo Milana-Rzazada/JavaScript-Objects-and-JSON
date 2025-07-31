@@ -20,3 +20,13 @@ student.displayInfo();
 console.log("PART 1 ENDED:");
 
 
+//part2
+console.log("PART 2 Started:");
+
+const JSONstudent = JSON.stringify(student);
+console.log("JSON string:", JSONstudent);
+
+const backstudent = JSON.parse(JSONstudent);
+console.log("Parsed object:", backstudent);
+console.log("PART2 ENDED:");
+
