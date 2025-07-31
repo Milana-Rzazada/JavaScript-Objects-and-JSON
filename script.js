@@ -61,3 +61,8 @@ student.addCourse = function(newCourse){
     this.courses.push(newCourse);
     console.log(`New course "${newCourse}" added`.);
 };
+
+student.getCourseCount = function() {
+    return this.courses.length;
+};
+
