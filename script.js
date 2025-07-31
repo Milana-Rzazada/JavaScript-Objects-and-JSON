@@ -37,3 +37,8 @@ console.log("PART 3 STARTED: ");
 const {name, courses} = student;
 console.log("Student name: ", name);
 console.log("Courses: ", courses);
+
+const scores = [87, 75, 56, 98, 64, 91];
+const [score1, score2] = scores;
+console.log("The first score: ", score1);
+console.log("The second score: ", score2);
