@@ -31,3 +31,9 @@ console.log("Parsed object:", backstudent);
 console.log("PART2 ENDED:");
 
 
+//part 3
+
+console.log("PART 3 STARTED: ");
+const {name, courses} = student;
+console.log("Student name: ", name);
+console.log("Courses: ", courses);
