@@ -47,3 +47,6 @@ console.log("part 3 ended:");
 
 //part 4
 console.log("Part 4 started:");
+const StudentClone = {...student, graduation: 2027};
+console.log("Cloned Student with Graduation Year: ", StudentClone);
+
