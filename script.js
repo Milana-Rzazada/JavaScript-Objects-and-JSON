@@ -50,3 +50,6 @@ console.log("Part 4 started:");
 const StudentClone = {...student, graduation: 2027};
 console.log("Cloned Student with Graduation Year: ", StudentClone);
 
+const newCourses = ["Fundamentals of Numeric", "Front-end Developr", "Art science"];
+const upCourses = [...student.courses, ...newCourses];
+console.log("Merged Courses:", upCourses);
